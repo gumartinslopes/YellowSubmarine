@@ -6,8 +6,7 @@ public class Submarine : MonoBehaviour {
     // Attributes
     Gun[] guns;
     float moveSpeed = 5;
-    int hp;
-    bool invisible;
+    bool invencible = false;
     bool moveUp;
     bool moveDown;
     bool moveLeft;
@@ -17,8 +16,6 @@ public class Submarine : MonoBehaviour {
 
     void Start() {
         guns = transform.GetComponentsInChildren<Gun>();
-        hp = 10;
-        invisible = false;
     }
 
     void Update() {
@@ -28,7 +25,7 @@ public class Submarine : MonoBehaviour {
         this.moveLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
         this.moveRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
         this.speedUp = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
-    
+
         //chcagem de tiro
         shoot = Input.GetKeyDown(KeyCode.Space);
         if(shoot){
@@ -43,11 +40,11 @@ public class Submarine : MonoBehaviour {
         Vector2 pos = transform.position;
 
         float moveAmount = moveSpeed * Time.fixedDeltaTime * 2;
-        
+
         if (speedUp) {
             moveAmount *= 2;
         }
-        
+
         Vector2 move = Vector2.zero;
 
         if (moveUp) {
@@ -68,12 +65,12 @@ public class Submarine : MonoBehaviour {
 
         //equalizando a velocidade diagonal com a dos outros eixos
         float moveMagnitude = Mathf.Sqrt((move.x * move.x) + (move.y * move.y));
-        
+
         if (moveMagnitude > moveAmount) {
             float ratio = moveAmount / moveMagnitude;
             move *= ratio;
         }
-        
+
         pos += move;
 
         if (pos.x <= -10.7) {
@@ -93,5 +90,21 @@ public class Submarine : MonoBehaviour {
         }
 
         transform.position = pos;
+    }
+    //colisão
+    private void OnTriggerEnter2D(Collider2D collision){
+      Bullet bullet = collision.GetComponent<Bullet>();
+      if(bullet != null){
+        if(bullet.isEnemy){
+          Destroy(gameObject);
+          Destroy(bullet.gameObject);
+        }
+      }
+      Destructable destructable = collision.GetComponent<Destructable>();
+      if(destructable != null){
+        Destroy(gameObject);
+        //Destroy(destructable.gameObject);
+      }
+      Debug.Log("COl");
     }
 }

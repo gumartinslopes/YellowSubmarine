@@ -8,7 +8,7 @@ public class Destructable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -16,13 +16,17 @@ public class Destructable : MonoBehaviour
     {
         if(transform.position.x < 10f)
             canBeDestroyed = true;
+        if(transform.position.x < -10f)
+          Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
         Bullet bullet = collision.GetComponent<Bullet>();
         if(canBeDestroyed & bullet != null){
+          if(!bullet.isEnemy){
             Destroy(gameObject);
             Destroy(bullet.gameObject);
+          }
         }
     }
 }

@@ -9,11 +9,13 @@ Repositório atualizado do Trabalho Interdisciplinar 04 - Yellow Submarine
 
 ## ToDo List Para a entrega final😯
  - [ ] Inimigos e Grupos de Inimigos.
+    - [ ] Trocar Movimentação do blooper pra usar Impulse.
  - [ ] Movimentação de cenário.
  - [x] Colisão de inimigos, balas e do submarino.
  - [ ] Sprites e animações.
  - [x] Lógica de Spawn dos inimigos.
     - [ ] Decidir o tempo de início e fim de cada spawn.
+    - [ ] Decidir a posição de spawn de cada inimigo.
  - [ ] Lógica e ia do Boss Final.
  - [ ] Cena de Game Over.
  - [ ] Cena de Boss Battle.

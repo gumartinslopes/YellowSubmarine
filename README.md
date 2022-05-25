@@ -12,8 +12,11 @@ Repositório atualizado do Trabalho Interdisciplinar 04 - Yellow Submarine
  - [ ] Movimentação de cenário.
  - [x] Colisão de inimigos, balas e do submarino.
  - [ ] Sprites e animações.
- - [ ] Lógica de Spawn dos inimigos.
+ - [x] Lógica de Spawn dos inimigos.
+    - [ ] Decidir o tempo de início e fim de cada spawn.
  - [ ] Lógica e ia do Boss Final.
  - [ ] Cena de Game Over.
  - [ ] Cena de Boss Battle.
  - [ ] Música e efeitos sonoros.
+ - [ ] Apresentar.
+ - [ ] Relaxar 💆‍♂️.

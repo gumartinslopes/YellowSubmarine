@@ -6,7 +6,7 @@ public class Submarine : MonoBehaviour {
     // Attributes
     Gun[] guns;
     float moveSpeed = 5;
-    bool invencible = false;
+    public bool invencible = false;
     bool moveUp;
     bool moveDown;
     bool moveLeft;
@@ -96,15 +96,19 @@ public class Submarine : MonoBehaviour {
       Bullet bullet = collision.GetComponent<Bullet>();
       if(bullet != null){
         if(bullet.isEnemy){
-          Destroy(gameObject);
-          Destroy(bullet.gameObject);
+            destroySelf();
+            Destroy(bullet.gameObject);
         }
       }
       Destructable destructable = collision.GetComponent<Destructable>();
       if(destructable != null){
-        Destroy(gameObject);
+          destroySelf();
         //Destroy(destructable.gameObject);
       }
-      Debug.Log("COl");
+    }
+
+    private void destroySelf(){
+        if(!invencible)
+            Destroy(gameObject);
     }
 }

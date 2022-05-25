@@ -5,7 +5,9 @@ using UnityEngine;
 public class Submarine : MonoBehaviour {
     // Attributes
     Gun[] guns;
-    float moveSpeed = 3;
+    float moveSpeed = 5;
+    int hp;
+    bool invisible;
     bool moveUp;
     bool moveDown;
     bool moveLeft;
@@ -15,6 +17,8 @@ public class Submarine : MonoBehaviour {
 
     void Start() {
         guns = transform.GetComponentsInChildren<Gun>();
+        hp = 10;
+        invisible = false;
     }
 
     void Update() {
@@ -24,7 +28,7 @@ public class Submarine : MonoBehaviour {
         this.moveLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
         this.moveRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
         this.speedUp = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
-
+    
         //chcagem de tiro
         shoot = Input.GetKeyDown(KeyCode.Space);
         if(shoot){
@@ -72,20 +76,20 @@ public class Submarine : MonoBehaviour {
         
         pos += move;
 
-        if (pos.x <= -7f) {
-            pos.x = -7f;
+        if (pos.x <= -10.7) {
+            pos.x = -10.7f;
         }
 
         if (pos.x >= 7f) {
             pos.x = 7f;
         }
 
-        if (pos.y <= -3.8f) {
-            pos.y = -3.8f;
+        if (pos.y <= -3f) {
+            pos.y = -3f;
         }
 
-        if (pos.y >= 3.8f) {
-            pos.y = 3.8f;
+        if (pos.y >= 5.0f) {
+            pos.y = 5.0f;
         }
 
         transform.position = pos;

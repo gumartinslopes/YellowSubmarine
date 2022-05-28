@@ -6,6 +6,8 @@ Arquivo exclusivo para fazer o famoso toró de miolo. Fique à vontade para inse
  - [ ] Status do personagem (hp/pontuação).
  - [ ] Hud para mostrar os status do personagem. 
  - [ ] Transição de uma tela para outra.
+ - [ ] Definição das músicas das fases.
+ - [ ] Definição da sonoplastia.
 ## Cenas 📽️
 ---
 Ideias para cenas.
@@ -15,6 +17,7 @@ Ideias para cenas.
  - [ ] Intro
  - [x] Fase 1
  - [ ] Menu
+ 
 ## Power Ups
 - [ ] Upgrade no shooting rate do personagem(gun.ShootIntervalSeconds).
 - [ ] Adição de mais armas no personagem.
@@ -35,3 +38,5 @@ Ideias para cenas.
  - [ ] Seguir o personagem pela tela.
  - [ ] Ter Muuuuitas armas atirando no jogador(Bullet hell).
  - [ ] Atirar um raio contínuo que ocupa todo o eixo x da tela.
+ - [ ] Boss que se divide em subbosses.
+ - [ ] Ter orbes que orbitam em torno do boss e dão dano no jogador	.

@@ -27,7 +27,7 @@ public class Submarine : MonoBehaviour {
         this.speedUp = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
 
         //chcagem de tiro
-        shoot = Input.GetKeyDown(KeyCode.Space);
+        shoot = Input.GetKey(KeyCode.Space);
         if(shoot){
             shoot = false;
             foreach(Gun gun in guns){

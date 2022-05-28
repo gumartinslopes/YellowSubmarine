@@ -24,9 +24,18 @@ public class Gun : MonoBehaviour
     {
       direction = (transform.localRotation * Vector2.right).normalized;
       if(autoShoot){
-        if(delayTimer >= shootDelaySeconds){
+        Shoot();
+      }
+      if(isRotative)
+        Rotate();
+    }
+
+    public void Shoot(){
+      if(delayTimer >= shootDelaySeconds){
           if(shootTimer >= shootIntervalSeconds){
-            Shoot();
+            GameObject go = Instantiate(bullet.gameObject, transform.position, Quaternion.identity);
+            Bullet goBullet = go.GetComponent<Bullet>();
+            goBullet.direction = direction;
             shootTimer = 0;
           }
           else{
@@ -36,15 +45,8 @@ public class Gun : MonoBehaviour
         else{
           delayTimer += Time.deltaTime;
         }
-      }
-      if(isRotative)
-        Rotate();
     }
-    public void Shoot(){
-        GameObject go = Instantiate(bullet.gameObject, transform.position, Quaternion.identity);
-        Bullet goBullet = go.GetComponent<Bullet>();
-        goBullet.direction = direction;
-    }
+
     public void Rotate(){
       transform.Rotate(0,0,.5f);
     }

@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee259dbf62c6e75438fa54454393ceaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotative: 1
+  isRotative: 0
   autoShoot: 0
   shootIntervalSeconds: 0.5
   shootDelaySeconds: 0
@@ -734,6 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab8913b63e8003468f9a7bd76bb0049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  invencible: 1
 --- !u!50 &1433325309
 Rigidbody2D:
   serializedVersion: 4

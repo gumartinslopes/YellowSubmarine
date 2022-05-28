@@ -12,7 +12,7 @@ public class Submarine : MonoBehaviour {
     bool moveLeft;
     bool moveRight;
     bool speedUp;
-    bool shoot;
+    public int level = 1;
 
     void Start() {
         guns = transform.GetComponentsInChildren<Gun>();
@@ -27,13 +27,21 @@ public class Submarine : MonoBehaviour {
         this.speedUp = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
 
         //chcagem de tiro
-        shoot = Input.GetKey(KeyCode.Space);
-        if(shoot){
-            shoot = false;
-            foreach(Gun gun in guns){
-                gun.Shoot();
+    
+        if(Input.GetKey(KeyCode.Space)){
+            guns[0].Shoot();
+            if(level > 2){
+                guns[1].Shoot();
+                guns[2].Shoot();
+                if(level > 3){
+                    guns[3].Shoot();
+                    guns[4].Shoot();
+                }
             }
+            
         }
+        if(Input.GetKey(KeyCode.C))
+            guns[5].Shoot();
     }
 
     private void FixedUpdate() {
@@ -81,12 +89,12 @@ public class Submarine : MonoBehaviour {
             pos.x = 7f;
         }
 
-        if (pos.y <= -3f) {
-            pos.y = -3f;
+        if (pos.y <= -3.43f) {
+            pos.y = -3.43f;
         }
 
-        if (pos.y >= 5.0f) {
-            pos.y = 5.0f;
+        if (pos.y >= 3.660f) {
+            pos.y = 3.66f;
         }
 
         transform.position = pos;

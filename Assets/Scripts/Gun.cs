@@ -33,7 +33,7 @@ public class Gun : MonoBehaviour
     public void Shoot(){
       if(delayTimer >= shootDelaySeconds){
           if(shootTimer >= shootIntervalSeconds){
-            GameObject go = Instantiate(bullet.gameObject, transform.position, Quaternion.identity);
+            GameObject go = Instantiate(bullet.gameObject, new Vector2(transform.position.x, transform.position.y-1.4f), Quaternion.identity);
             Bullet goBullet = go.GetComponent<Bullet>();
             goBullet.direction = direction;
             shootTimer = 0;

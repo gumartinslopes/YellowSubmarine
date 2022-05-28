@@ -2,7 +2,7 @@
 Arquivo exclusivo para fazer o famoso toró de miolo. Fique à vontade para inserir qualquer ideia que quiser(desde que seja implementável) respeitando as categorias estabelecidas. Se vc já tiver implementado alguma dessas features por favor marque com um x a caixinha.
 
 
-ps: Se for alterar os parâmetros do josias(quadrado de teste) avise.
+ps: Se for alterar os parâmetros do Josias(boneco de teste) avise.
 ## Features 🛠️
 ---
  - [x] Segurar para atirar.
@@ -11,6 +11,7 @@ ps: Se for alterar os parâmetros do josias(quadrado de teste) avise.
  - [ ] Transição de uma tela para outra.
  - [ ] Definição das músicas das fases.
  - [ ] Definição da sonoplastia.
+ - [ ] Setar os limites da tela.
  
 ## Cenas 📽️
 ---
@@ -26,8 +27,10 @@ Ideias para cenas.
 ---
 - [ ] Upgrade no shooting rate do personagem(gun.ShootIntervalSeconds).
 - [ ] Adição de mais armas no personagem.
+	- [x] Tiro concentrado.
 - [ ] Aumento do hp do personagem.
 - [ ] Invencibilidade momentânea.
+- [x] Grupo de orbes.
 
 ## Inimigos👿
 --- 
@@ -46,7 +49,8 @@ Ideias para cenas.
  - [x] Flutuar para a direita.
  - [x] Senóide.
  - [x] Diagonal.
- - [ ] Delay de movimentação.
+ - [x] Delay de movimentação.
+ - [x] Movimentação de órbita.
 ## ideias para Boss 🐍
 ---
  - [ ] Seguir o personagem pela tela.

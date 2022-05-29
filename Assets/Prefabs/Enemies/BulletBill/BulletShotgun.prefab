@@ -104,6 +104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  stopPos: 0
+  stopInterval: 0
+  stopped: 0
 --- !u!50 &7181866700547053352
 Rigidbody2D:
   serializedVersion: 4
@@ -153,6 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 0
 --- !u!1 &5955172460016693055
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5955172460016693055}
   m_LocalRotation: {x: 0, y: 0, z: 0.92387956, w: 0.38268343}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: 0.035, y: 0.076, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -199,6 +205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -227,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5955172460187653090}
   m_LocalRotation: {x: 0, y: -0, z: 0.9238796, w: -0.38268325}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: -0.051, y: 0.092, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -248,6 +256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -276,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6985326612698925565}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: 0.025, y: 0.1, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -297,6 +307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}

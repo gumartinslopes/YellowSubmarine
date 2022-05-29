@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Submarine : MonoBehaviour {
-    // Attributes
-    Gun[] guns;
-    float moveSpeed = 5;
     public bool invencible = false;
-    bool moveUp;
-    bool moveDown;
-    bool moveLeft;
-    bool moveRight;
-    bool speedUp;
     public int level = 1;
+    public int hp = 100;
+    public int score = 0;
+    public int hitDmg = 5;
+
+    private bool moveUp;
+    private bool moveDown;
+    private bool moveLeft;
+    private bool moveRight;
+    private bool speedUp;
+    private float moveSpeed = 5;
+
+    private Gun[] guns;
 
     void Start() {
         guns = transform.GetComponentsInChildren<Gun>();
@@ -40,11 +44,12 @@ public class Submarine : MonoBehaviour {
             }
             
         }
-        if(Input.GetKey(KeyCode.C))
+        else if(Input.GetKey(KeyCode.C))
             guns[5].Shoot();
     }
 
     private void FixedUpdate() {
+        gameOver();
         Vector2 pos = transform.position;
 
         float moveAmount = moveSpeed * Time.fixedDeltaTime * 2;
@@ -104,19 +109,23 @@ public class Submarine : MonoBehaviour {
       Bullet bullet = collision.GetComponent<Bullet>();
       if(bullet != null){
         if(bullet.isEnemy){
-            destroySelf();
+            takeDmg(bullet.hitDmg);
             Destroy(bullet.gameObject);
         }
       }
       Destructable destructable = collision.GetComponent<Destructable>();
       if(destructable != null){
-          destroySelf();
+          takeDmg(destructable.hitDmg);
         //Destroy(destructable.gameObject);
       }
     }
 
-    private void destroySelf(){
-        if(!invencible)
+    private void gameOver(){
+        if(!invencible && hp <= 0)
             Destroy(gameObject);
+    }
+
+    private void takeDmg(int dmg){
+        hp -= dmg;
     }
 }

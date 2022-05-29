@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238332277377420649}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: 0.073, y: 0.1, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -158,6 +160,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  stopPos: 0
+  stopInterval: 0
+  stopped: 0
 --- !u!50 &6044892996801468
 Rigidbody2D:
   serializedVersion: 4
@@ -207,6 +212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 100
 --- !u!1 &3538529367283685238
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3538529367283685238}
   m_LocalRotation: {x: 0, y: -0, z: 0.9238796, w: -0.38268325}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: -0.078, y: 0.076, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -253,6 +261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -281,7 +291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3538529367530154923}
   m_LocalRotation: {x: 0, y: 0, z: 0.92387956, w: 0.38268343}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: 0.019, y: 0.068, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -302,6 +312,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -330,7 +342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7187292532931073765}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: 0.003, y: 0.084, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -351,6 +363,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -400,6 +414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -428,7 +444,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7187292534439014062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: -0.132, y: 0.06, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -449,6 +465,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -477,7 +495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7187292534563848988}
   m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: -0.153, y: 0.043, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -498,6 +516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
@@ -526,7 +546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7187292534610013155}
   m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
-  m_LocalPosition: {x: -0.52, y: 0.1, z: -0.008535244}
+  m_LocalPosition: {x: -0.116, y: 0.116, z: -0.008535244}
   m_LocalScale: {x: 1, y: 0.6666665, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -547,6 +567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRotative: 0
   autoShoot: 1
+  inverted: 0
+  rotateLeft: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}

@@ -50,6 +50,7 @@ MonoBehaviour:
   speed: 20
   velocity: {x: 0, y: 0}
   isEnemy: 0
+  hitDmg: 10
 --- !u!58 &-9116878097642370909
 CircleCollider2D:
   m_ObjectHideFlags: 0

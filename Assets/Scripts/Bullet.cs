@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public float speed = 20;
     public Vector2 velocity;
     public bool isEnemy = false;
+    public int hitDmg = 5;
 
     void Start()
     {

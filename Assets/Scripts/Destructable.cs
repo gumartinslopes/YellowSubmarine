@@ -4,29 +4,44 @@ using UnityEngine;
 
 public class Destructable : MonoBehaviour
 {
-    bool canBeDestroyed = false;
-    // Start is called before the first frame update
+    public bool canTakeDamage = true;
+    public int hitDmg = 10;
+    public int hp;
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
+        gameOver();
         if(transform.position.x < 10f)
-            canBeDestroyed = true;
+            canTakeDamage = true;
         if(transform.position.x < -10f)
           Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
-        Bullet bullet = collision.GetComponent<Bullet>();
-        if(canBeDestroyed & bullet != null){
-          if(!bullet.isEnemy){
-            Destroy(gameObject);
+      Bullet bullet = collision.GetComponent<Bullet>();
+      if(bullet != null){
+        if(canTakeDamage && !bullet.isEnemy){
+            takeDmg(bullet.hitDmg);
             Destroy(bullet.gameObject);
-          }
         }
+      }
+      Destructable destructable = collision.GetComponent<Destructable>();
+      if(destructable != null){
+          takeDmg(destructable.hitDmg);
+      }
+    }
+
+    private void gameOver(){
+      if(hp <= 0)
+          Destroy(gameObject);
+    }
+
+    private void takeDmg(int dmg){
+        hp -= dmg;
     }
 }

@@ -6,7 +6,13 @@ ps: Se for alterar os parâmetros do Josias(boneco de teste) avise.
 ## Features 🛠️
 ---
  - [x] Segurar para atirar.
- - [ ] Status do personagem (hp/pontuação).
+ - [x] Arma rotativa.
+ 	- [x] Direção de rotação. 
+ 	- [ ] Angulação máxima e mínima para arma.
+ 	- [ ] Se não definida a arma deve rotacionar 360 graus infinitamente.
+ - [x] Status do personagem.
+ 	- [x] Hp.
+ 	- [ ] Pontuação.
  - [ ] Hud para mostrar os status do personagem. 
  - [ ] Transição de uma tela para outra.
  - [ ] Definição das músicas das fases.
@@ -42,6 +48,7 @@ Ideias para cenas.
  - [x] Blooper: Inimigo que faz leves "saltos na diagonal". 
  - [ ] VerticalShooter: Inimigo que para em determinado ponto e durante um período varia pelo eixo y atirando. 
  - [ ] Cardumes & Grupos.
+ - [ ] Inimigo com escudo.
 ## Movimentação ↙️
 ---
  - [x] UpDown.

@@ -101,6 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  stopPos: 0
+  stopInterval: 0
+  stopped: 0
 --- !u!50 &241998376694910762
 Rigidbody2D:
   serializedVersion: 4
@@ -150,3 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 50
+  hp: 1000

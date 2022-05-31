@@ -49,6 +49,8 @@ Ideias para cenas.
  - [ ] VerticalShooter: Inimigo que para em determinado ponto e durante um período varia pelo eixo y atirando. 
  - [ ] Cardumes & Grupos.
  - [ ] Inimigo com escudo.
+
+## Sprites e animações 🐵
 ## Movimentação ↙️
 ---
  - [x] UpDown.

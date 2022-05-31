@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: fd20172ffabb0be4f807901045a19d48
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 241
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac48cbf343ca9143a16200c4f89f927
+      internalID: -1714218596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 241
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5f4fd906109934fa0911d9015c0c3b
+      internalID: 1706440165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 239
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e3edbba1810c044ba5cec987d3cde1
+      internalID: -1491272787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 236
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e899dbc7a38fa42a272a75e62355a6
+      internalID: 455397811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 235
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c84310d9910ff4e8eb5fc803857834
+      internalID: 1825220318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 236
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8bc47899469d3418946facd02c8a3c
+      internalID: -374541126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 239
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9aff456b9f0f4e8cd79008be686de
+      internalID: 686475955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 239
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9633ece3df9bff74aad46d8e975bacd1
+      internalID: 1783490371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 206
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1f74e96b00140449b90d7298bd9406
+      internalID: 922180564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 206
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa228784ac090044817ec9025845d71
+      internalID: 1550267520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 206
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbdd6ef0c9637e4295e186e798190f5
+      internalID: 463736149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 206
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425bc1586570034d94d2aba30550d86
+      internalID: 1757485114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 206
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f545bab6d4a3064383e32a3eb95eb74
+      internalID: 1673989114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 206
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff1920aa6de84e47b3e2ac4e1cf7350
+      internalID: -23246836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 206
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b3d6437f50eec4a89bbba02296b8c0
+      internalID: -351492212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 171
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8edc8010d3cf9428b067fe78516089
+      internalID: -870633845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 171
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef47519eb65fe544b3c056d8f071f66
+      internalID: 1996589548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 171
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fe30f153f6e48449884e6582e4d340
+      internalID: 1172131147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 171
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5917df017ceb24e4483c2d0ff201e370
+      internalID: 132104637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 131
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a64fdb3f2b38e47857538c1622f276
+      internalID: -601216592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 131
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fadb27677c8b44e8b921800b56d896
+      internalID: 1110369628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 129
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5302b9c5ef27744a8769e25f267fe10
+      internalID: 88433143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb2e3c6b421bc341bfd4ab1e660e7b9
+      internalID: -2109801503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 125
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5de7fdcd2757054c98ce87536eb2904
+      internalID: -792584514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 126
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aa2eec9d8045849ae15b667aea28b7
+      internalID: -1374985921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563212d8401267240a1579c100aa17e7
+      internalID: -1055267123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 129
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b23d494a1318084f997c59d0401777f
+      internalID: -745843524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080670c97c454f647a61a11b84ab9ca6
+      internalID: -1782430780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a1ba1d645f0e469f8605c4fc853c4
+      internalID: 1777654345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb14e3267b08f644a70f3e9a6309082
+      internalID: -208742799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab8e41542b9d6e4a8a19a9ef259ce7d
+      internalID: 951565660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dadfbc6a032e74c8a78345dd229797
+      internalID: 460281264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2d7d69f7efd2141a50faa1f8a96c25
+      internalID: 2049697502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 96
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a9c0a78e30c934dbca8da45a59d550
+      internalID: 1815837894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 61
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbb4a59f3406fa4d8c405d5e001d712
+      internalID: -7468824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 61
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9d9abcd380f7649b4f652d436283dd
+      internalID: -1799087168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 61
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fd1ca8dbb564748b1c60994f7e6572
+      internalID: -691747981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_Bill_sprite_sheet-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 61
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0183113911d7b24997c378c075649eb
+      internalID: 1466248747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bullet_Bill_sprite_sheet-removebg-preview_36: -691747981
+      Bullet_Bill_sprite_sheet-removebg-preview_9: 1550267520
+      Bullet_Bill_sprite_sheet-removebg-preview_6: 686475955
+      Bullet_Bill_sprite_sheet-removebg-preview_1: 1706440165
+      Bullet_Bill_sprite_sheet-removebg-preview_3: 455397811
+      Bullet_Bill_sprite_sheet-removebg-preview_25: -1055267123
+      Bullet_Bill_sprite_sheet-removebg-preview_30: 951565660
+      Bullet_Bill_sprite_sheet-removebg-preview_11: 1757485114
+      Bullet_Bill_sprite_sheet-removebg-preview_18: 132104637
+      Bullet_Bill_sprite_sheet-removebg-preview_8: 922180564
+      Bullet_Bill_sprite_sheet-removebg-preview_32: 2049697502
+      Bullet_Bill_sprite_sheet-removebg-preview_19: -601216592
+      Bullet_Bill_sprite_sheet-removebg-preview_4: 1825220318
+      Bullet_Bill_sprite_sheet-removebg-preview_28: 1777654345
+      Bullet_Bill_sprite_sheet-removebg-preview_37: 1466248747
+      Bullet_Bill_sprite_sheet-removebg-preview_34: -7468824
+      Bullet_Bill_sprite_sheet-removebg-preview_7: 1783490371
+      Bullet_Bill_sprite_sheet-removebg-preview_13: -23246836
+      Bullet_Bill_sprite_sheet-removebg-preview_12: 1673989114
+      Bullet_Bill_sprite_sheet-removebg-preview_21: 88433143
+      Bullet_Bill_sprite_sheet-removebg-preview_17: 1172131147
+      Bullet_Bill_sprite_sheet-removebg-preview_35: -1799087168
+      Bullet_Bill_sprite_sheet-removebg-preview_38: -642234639
+      Bullet_Bill_sprite_sheet-removebg-preview_0: -1714218596
+      Bullet_Bill_sprite_sheet-removebg-preview_10: 463736149
+      Bullet_Bill_sprite_sheet-removebg-preview_16: 1996589548
+      Bullet_Bill_sprite_sheet-removebg-preview_27: -1782430780
+      Bullet_Bill_sprite_sheet-removebg-preview_14: -351492212
+      Bullet_Bill_sprite_sheet-removebg-preview_22: -2109801503
+      Bullet_Bill_sprite_sheet-removebg-preview_23: -792584514
+      Bullet_Bill_sprite_sheet-removebg-preview_31: 460281264
+      Bullet_Bill_sprite_sheet-removebg-preview_29: -208742799
+      Bullet_Bill_sprite_sheet-removebg-preview_33: 1815837894
+      Bullet_Bill_sprite_sheet-removebg-preview_2: -1491272787
+      Bullet_Bill_sprite_sheet-removebg-preview_15: -870633845
+      Bullet_Bill_sprite_sheet-removebg-preview_24: -1374985921
+      Bullet_Bill_sprite_sheet-removebg-preview_5: -374541126
+      Bullet_Bill_sprite_sheet-removebg-preview_20: 1110369628
+      Bullet_Bill_sprite_sheet-removebg-preview_26: -745843524
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

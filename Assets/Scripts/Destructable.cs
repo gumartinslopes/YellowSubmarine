@@ -6,11 +6,11 @@ public class Destructable : MonoBehaviour
 {
     public bool canTakeDamage = true;
     public int hitDmg = 10;
-    public int hp;
+    public int hp = 1;
 
     void Start()
     {
-
+      hp = 1;
     }
 
     void Update()

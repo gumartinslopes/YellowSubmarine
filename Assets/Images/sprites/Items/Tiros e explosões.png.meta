@@ -1,0 +1,2080 @@
+fileFormatVersion: 2
+guid: e98dda650bf86f141849144610dd0bc1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_0"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 439
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffb4c831c967fe4ebd7d7ec244b8d1d
+      internalID: 2072564622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_1"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 439
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280378eee02056243b6b0f82fcb56bea
+      internalID: 1709876356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_2"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 439
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f019d44ce35eac41acba762234dccc6
+      internalID: 281408519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_3"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 438
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da68b347825da543be1141907750222
+      internalID: -967165900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_4"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 437
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a4b29a1591d1d4082f28d4f8d10bca
+      internalID: -1239355224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_5"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 440
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a637f267f5b0d7847bd65ff807d28028
+      internalID: 35480358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_6"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 433
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec57f57b3483cd48a9a8f384ca431c1
+      internalID: 988282082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_7"
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 433
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b88c6a46f14c1742b0cbed601c07a9f
+      internalID: 583651548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_8"
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 433
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e178e4e67c606d44b701bb7ff9811d7
+      internalID: -2020856951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_9"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 433
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71caaf9a92ebc8841b70e7d23238f057
+      internalID: -906052468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_10"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 388
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a760c4bd994c7b43a77eb9c346ab80d
+      internalID: -1824899138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_11"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 388
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f712dd4e47e99c4e8eae6eee153673d
+      internalID: -1604616084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_12"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 389
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd22bbec0acaca540acd9d575eae1b4c
+      internalID: 97259246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_13"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 388
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996dfba363e1b174f8db6296f8178cb1
+      internalID: -234584713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_14"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 386
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742a644dce3e5e54bbb86d9277c676da
+      internalID: -612336249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_15"
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 386
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc866ecb611ffb4598211f6bf0e404f
+      internalID: 113428917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_16"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 373
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85798f42082a44c478226147b52e72fd
+      internalID: -1608957624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_17"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 373
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fa31824b3febf4ba2346b8f1ffb4e4
+      internalID: 1205364931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_18"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 373
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a93301ff9dc6447bcd8f245522225a
+      internalID: -1876481796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_19"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 295
+        width: 95
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbc244c7234b49489dd8f84bcfd2e6c
+      internalID: -963323590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_20"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 297
+        width: 95
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc1762afa47c245890f6f4856f1c0f
+      internalID: -58882729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_21"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 326
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafd2738e02c7dc418b71acec146da0b
+      internalID: -1658027872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_22"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 299
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b75fdee9df086044a4dfd4f2a833c8a
+      internalID: 1622544891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_23"
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 320
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ec41bf4750474f9f99d56ca859933
+      internalID: 621982304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_24"
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 291
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd926f66fdabd7a49ab845e9f55c1dfb
+      internalID: -299585735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_25"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 312
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a248696593474d04d93ebb75d4887773
+      internalID: 736902935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_26"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 313
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2b40c30fc3db04396f6d0b10670ea3
+      internalID: 552167686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_27"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 246
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8defc1bc70bbe83459c582cf29e446a3
+      internalID: -390266820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_28"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 273
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963dcc78cbdf1674698250fe7c50516f
+      internalID: 824715296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_29"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 245
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f7627890072b345877f333ae75678b
+      internalID: -1394362036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_30"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 238
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e919c62cee4c8e642bceb244d4fcd89e
+      internalID: -577020545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_31"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 239
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f48a1a2509fb14a8558fd506d769c4
+      internalID: 1661401739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_32"
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 249
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a69d07fbc86c7943bce0fe0d8940143
+      internalID: 1012183713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_33"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 271
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1fae69f89ade14b8a78c175ece8933
+      internalID: -1367386975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_34"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 243
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4564e70874ba8468a468ed3238d860
+      internalID: 1336558490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_35"
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 264
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544f39a9e6755c246b1d5ba8a1c0d459
+      internalID: -1296591861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_36"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 238
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e47981021d58f94892390dd4aeb3554
+      internalID: -1962485373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_37"
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 250
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a1ca102321e7243bbc8afaee4ac127
+      internalID: -2139973597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_38"
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 264
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb21643dacd2f9b4b998ca91e4dbd255
+      internalID: 1602097128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_39"
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 264
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d229e14f05dd049bc8181feb3e8ada
+      internalID: 1399938002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_40"
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 260
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68f167baad0a7549946221246f5423c
+      internalID: -505559947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_41"
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410a2a2863f01f4eaac6e6418c311be
+      internalID: -1308437239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_42"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 258
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d59542f071d9e499596b6f738389e6
+      internalID: 1192251379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_43"
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 251
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af41b1f29945da04495dc01efb6b5b73
+      internalID: -330194496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_44"
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 251
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ac999a4b9aa34dbfba09a0b14cf2a
+      internalID: 1994631521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_45"
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 243
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad622d52561ba645964af5a584b4ea6
+      internalID: 660253995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_46"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 244
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a656d47e72fd9948a2db79285138753
+      internalID: 1975220749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_47"
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 244
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727d234bdf4305248a5ff8844722f765
+      internalID: -985622694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_48"
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 204
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8ffacb3cc0d7041ba311fac0c0089f
+      internalID: -1519455198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_49"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 216
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843ba759433adb1429fb29f4e00609e6
+      internalID: -1650414488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_50"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 204
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffd6094c00818347a98f53e05968624
+      internalID: 574762519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_51"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 216
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ffe486c4b566742a8756220203c863
+      internalID: -2069640381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_52"
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 160
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d99d8cecae2c84ba1a79c9c0bee00a
+      internalID: -1124630688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_53"
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 162
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d379c031104c02f4992d2a4324aa7cf6
+      internalID: -947672209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_54"
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 172
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60307274ffdc3d47b0ade8081e96098
+      internalID: -912344245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_55"
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 193
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a00c73925feee478842f35dcdaf557
+      internalID: -467086092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_56"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 188
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f81f84ba4f47a46815d16e18e691fc
+      internalID: 775098698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_57"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 160
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5673e95cb262b1648a461ccea3687acb
+      internalID: 1478468760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_58"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 182
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd43dfa254d17ac4e899675c77ab4bd3
+      internalID: -1834975077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_59"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 184
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8334bd0183be0148976e75e161fce38
+      internalID: 1174809911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_60"
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 193
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e640a8081a0822644bab055ea8f577af
+      internalID: 1022912505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_61"
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 188
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740662fbbf8ec5c4e9970c36a51d20a0
+      internalID: -1499354948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_62"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 182
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077c15f22efe48b438b77abcc0ffcb4f
+      internalID: 1319922713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_63"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 156
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc24eeec00a69274eb82d71cea30db85
+      internalID: 1424051649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_64"
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 155
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bbdd750285f03488d782e99f0b866c
+      internalID: 1931692148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_65"
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe51d16ef46f84e99bc65c525f8c9b
+      internalID: 919245740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_66"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 162
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23600805f01f9f342b3e2dbdac29f38f
+      internalID: 513555741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_67"
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 156
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e118150de617c4fbe80cbc0bb81ae3
+      internalID: 1577641438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_68"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 156
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ceaacdc720b484f9767dbe007a02e1
+      internalID: 120060429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_69"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d95ac3693792649ab4386dfa634172
+      internalID: 1558528445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_70"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 75
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a647095fd5b14a86fdb954796f7b7
+      internalID: -1664445916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_71"
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 67
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0946454c06bf6564ca7faa46b2692a5b
+      internalID: 1455013895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_72"
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 60
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6518036ca9d4273469b802f3e5ddcef6
+      internalID: -343748188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_73"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 60
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984a373715623ba45af66812fe4a553f
+      internalID: 1492118994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_74"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 100
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384363e3ee1ede46a2602eccea6d61a
+      internalID: 1938389872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_75"
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 111
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a8e9122a773ed4da5675164592fa8b
+      internalID: 1890794102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_76"
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 106
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a458b7341b521264eb415585bf9095c8
+      internalID: 130274478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_77"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 91
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95221f6482badb340b51d3827a39091f
+      internalID: -551450878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_78"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 97
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4deb176d837aba47b8eafb4af44cd53
+      internalID: -1084025250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_79"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 61
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f81b2d78d57ef64d83f6dd8db1182ae
+      internalID: -454894971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_80"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 71
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab5095f7b583bf4e9f5b67d01d6c12c
+      internalID: -1788662202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_81"
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 91
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8db7a077579fd84bad2f44ca346fec9
+      internalID: -859962541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_82"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 88
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a71f03cac5e1d499e08ace956a6c39
+      internalID: 1084212163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_83"
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 98
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca91b3243a91144918b6f95ee0bf35
+      internalID: 1891076127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_84"
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 82
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1e87a44e4f7454e9dd55006f6121d0
+      internalID: 238473423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_85"
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 87
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab21cebd9458531478fc28a70fecd723
+      internalID: 964711272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_86"
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 65
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf5632293ad024ba9264d738b4ccff
+      internalID: -1165747463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_87"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1521c0967bb4c0845b5628cf222503e8
+      internalID: -1221038071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tiros e explos\xF5es_88"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 74
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688fc6284ae689a47be78f184d483e33
+      internalID: -89063035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Tiros e explos\xF5es_39": 1399938002
+      "Tiros e explos\xF5es_74": 1938389872
+      "Tiros e explos\xF5es_36": -1962485373
+      "Tiros e explos\xF5es_0": 2072564622
+      "Tiros e explos\xF5es_61": -1499354948
+      "Tiros e explos\xF5es_45": 660253995
+      "Tiros e explos\xF5es_6": 988282082
+      "Tiros e explos\xF5es_26": 552167686
+      "Tiros e explos\xF5es_82": 1084212163
+      "Tiros e explos\xF5es_29": -1394362036
+      "Tiros e explos\xF5es_67": 1577641438
+      "Tiros e explos\xF5es_24": -299585735
+      "Tiros e explos\xF5es_71": 1455013895
+      "Tiros e explos\xF5es_25": 736902935
+      "Tiros e explos\xF5es_87": -1221038071
+      "Tiros e explos\xF5es_49": -1650414488
+      "Tiros e explos\xF5es_69": 1558528445
+      "Tiros e explos\xF5es_34": 1336558490
+      "Tiros e explos\xF5es_27": -390266820
+      "Tiros e explos\xF5es_38": 1602097128
+      "Tiros e explos\xF5es_8": -2020856951
+      "Tiros e explos\xF5es_35": -1296591861
+      "Tiros e explos\xF5es_78": -1084025250
+      "Tiros e explos\xF5es_76": 130274478
+      "Tiros e explos\xF5es_55": -467086092
+      "Tiros e explos\xF5es_15": 113428917
+      "Tiros e explos\xF5es_81": -859962541
+      "Tiros e explos\xF5es_73": 1492118994
+      "Tiros e explos\xF5es_70": -1664445916
+      "Tiros e explos\xF5es_68": 120060429
+      "Tiros e explos\xF5es_28": 824715296
+      "Tiros e explos\xF5es_9": -906052468
+      "Tiros e explos\xF5es_2": 281408519
+      "Tiros e explos\xF5es_46": 1975220749
+      "Tiros e explos\xF5es_66": 513555741
+      "Tiros e explos\xF5es_30": -577020545
+      "Tiros e explos\xF5es_56": 775098698
+      "Tiros e explos\xF5es_53": -947672209
+      "Tiros e explos\xF5es_22": 1622544891
+      "Tiros e explos\xF5es_59": 1174809911
+      "Tiros e explos\xF5es_65": 919245740
+      "Tiros e explos\xF5es_23": 621982304
+      "Tiros e explos\xF5es_7": 583651548
+      "Tiros e explos\xF5es_37": -2139973597
+      "Tiros e explos\xF5es_85": 964711272
+      "Tiros e explos\xF5es_86": -1165747463
+      "Tiros e explos\xF5es_50": 574762519
+      "Tiros e explos\xF5es_33": -1367386975
+      "Tiros e explos\xF5es_57": 1478468760
+      "Tiros e explos\xF5es_84": 238473423
+      "Tiros e explos\xF5es_16": -1608957624
+      "Tiros e explos\xF5es_4": -1239355224
+      "Tiros e explos\xF5es_51": -2069640381
+      "Tiros e explos\xF5es_3": -967165900
+      "Tiros e explos\xF5es_10": -1824899138
+      "Tiros e explos\xF5es_43": -330194496
+      "Tiros e explos\xF5es_5": 35480358
+      "Tiros e explos\xF5es_44": 1994631521
+      "Tiros e explos\xF5es_72": -343748188
+      "Tiros e explos\xF5es_14": -612336249
+      "Tiros e explos\xF5es_77": -551450878
+      "Tiros e explos\xF5es_88": -89063035
+      "Tiros e explos\xF5es_47": -985622694
+      "Tiros e explos\xF5es_58": -1834975077
+      "Tiros e explos\xF5es_63": 1424051649
+      "Tiros e explos\xF5es_1": 1709876356
+      "Tiros e explos\xF5es_32": 1012183713
+      "Tiros e explos\xF5es_79": -454894971
+      "Tiros e explos\xF5es_64": 1931692148
+      "Tiros e explos\xF5es_11": -1604616084
+      "Tiros e explos\xF5es_18": -1876481796
+      "Tiros e explos\xF5es_21": -1658027872
+      "Tiros e explos\xF5es_54": -912344245
+      "Tiros e explos\xF5es_48": -1519455198
+      "Tiros e explos\xF5es_60": 1022912505
+      "Tiros e explos\xF5es_40": -505559947
+      "Tiros e explos\xF5es_75": 1890794102
+      "Tiros e explos\xF5es_17": 1205364931
+      "Tiros e explos\xF5es_62": 1319922713
+      "Tiros e explos\xF5es_31": 1661401739
+      "Tiros e explos\xF5es_19": -963323590
+      "Tiros e explos\xF5es_52": -1124630688
+      "Tiros e explos\xF5es_42": 1192251379
+      "Tiros e explos\xF5es_41": -1308437239
+      "Tiros e explos\xF5es_13": -234584713
+      "Tiros e explos\xF5es_83": 1891076127
+      "Tiros e explos\xF5es_12": 97259246
+      "Tiros e explos\xF5es_20": -58882729
+      "Tiros e explos\xF5es_80": -1788662202
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

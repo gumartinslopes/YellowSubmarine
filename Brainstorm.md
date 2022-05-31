@@ -7,29 +7,29 @@ ps: Se for alterar os parâmetros do Josias(boneco de teste) avise.
 ---
  - [x] Segurar para atirar.
  - [x] Arma rotativa.
- 	- [x] Direção de rotação. 
- 	- [ ] Angulação máxima e mínima para arma.
+ 	- [x] Direção de rotação(Gustavo).
+ 	- [ ] Angulação máxima e mínima para arma. (Gustavo)
  	- [ ] Se não definida a arma deve rotacionar 360 graus infinitamente.
  - [x] Status do personagem.
  	- [x] Hp.
  	- [ ] Pontuação.
- - [ ] Hud para mostrar os status do personagem. 
+ - [ ] Hud para mostrar os status do personagem (Natã).
  - [ ] Transição de uma tela para outra.
  - [ ] Definição das músicas das fases.
  - [ ] Definição da sonoplastia.
  - [ ] Setar os limites da tela.
- 
+
 ## Cenas 📽️
 ---
 Ideias para cenas.
 
- - [ ] Boss Battle
+ - [ ] Boss Battle (Omar, Dani, Larissa).
  - [ ] Cena de créditos.
  - [ ] Intro
- - [x] Fase 1
- - [ ] Menu
- 
-## Power Ups💪
+ - [x] Fase 1 (Todo mundo)
+ - [ ] Menu (Babs)
+
+## Power Ups💪(André)
 ---
 - [ ] Upgrade no shooting rate do personagem(gun.ShootIntervalSeconds).
 - [ ] Adição de mais armas no personagem.
@@ -39,18 +39,34 @@ Ideias para cenas.
 - [x] Grupo de orbes.
 
 ## Inimigos👿
---- 
+---
  - [x] Bullet Bill: Inimigo imortal que vem de um lado para outro, se vc tocar vc morre.
  - [x] Bullet Big: bullet bill grandão.
  - [x] FishSin: peixe que faz o movimento de senóide de um canto da tela a outro.
  - [x] Bomba: Item que cai do topo da tela dá um grande dano no personagem.
  - [ ] Bomber: Personagem que navega pelo topo da tela jogando bombas.
- - [x] Blooper: Inimigo que faz leves "saltos na diagonal". 
- - [ ] VerticalShooter: Inimigo que para em determinado ponto e durante um período varia pelo eixo y atirando. 
+ - [x] Blooper: Inimigo que faz leves "saltos na diagonal".
+ - [ ] VerticalShooter: Inimigo que para em determinado ponto e durante um período varia pelo eixo y atirando.
  - [ ] Cardumes & Grupos.
  - [ ] Inimigo com escudo.
 
-## Sprites e animações 🐵
+## Sprites e animações 🐵 (Gustavo E Babi)
+ - [ ] Submarino.
+ - [ ] Inimigos:
+  - [ ] Bullet Bill.
+  - [ ] Spread.
+  - [ ] Blooper.
+  - [ ] Rotator.
+  - [ ] Shotgun.
+  - [ ] Peixe.
+  - [ ] Peixe 2.
+ - [ ] Itens.   
+  - [x] Orbes.
+  - [x] Tiro.
+  - [x] Bomba.
+  - [x] Bala do jogador.
+  - [ ] Explosões.
+  - [ ] Escudo.
 ## Movimentação ↙️
 ---
  - [x] UpDown.

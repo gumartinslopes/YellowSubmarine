@@ -7,13 +7,13 @@ public class Gun : MonoBehaviour
     public bool isRotative = false;
     public bool autoShoot = false;
     public bool inverted = false; 
-    public bool rotateLeft = true;
+    public bool rotateRight = true;
     public float shootIntervalSeconds = 0.5f;
     public float shootDelaySeconds = 0.0f;
     public Bullet bullet;
-    
-    //public float maxRotationAngle = 0;
-    //public float minRotationAngle = 0;
+    public float minAngle = 0f;
+    public float maxAngle = 0f;
+
     
 
     private Vector2 rotation;
@@ -23,16 +23,20 @@ public class Gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+      transform.Rotate(0,0,minAngle);
     }
 
     // Update is called once per frame
     void Update()
     {
+
       direction = (transform.localRotation * ((inverted)?Vector2.left:Vector2.right)).normalized;
       if(autoShoot){
         Shoot();
       }
+
+      
+      
       if(isRotative)
         Rotate();
     }
@@ -49,14 +53,18 @@ public class Gun : MonoBehaviour
             shootTimer += Time.deltaTime;
           }
         }
-        else{
-          delayTimer += Time.deltaTime;
-        }
+      else{
+        delayTimer += Time.deltaTime;
+      }
     }
 
     public void Rotate(){
-      if(isRotative)
-        transform.Rotate(0,0,.5f * ((rotateLeft)?1f:-1f));
-      
+      if(isRotative){
+        if(transform.localRotation.z <= minAngle/100 || transform.localRotation.z > maxAngle/100){
+          //Debug.Log("Z" + transform.localRotation.z);
+          rotateRight = !rotateRight;
+        }
+        transform.Rotate(0,0,.5f * ((rotateRight)?1f:-1f));
+      }
     }
 }

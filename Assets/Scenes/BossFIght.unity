@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &42885203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.500493
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3022517
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125366634573945946, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
+      propertyPath: m_Name
+      value: Submarino
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
 --- !u!1 &68855645
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,60 +264,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &289172371
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.1125007
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.35405767
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945936, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125366634573945946, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}
-      propertyPath: m_Name
-      value: Submarino
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 981d943b6c44c764fb702fc9d3f6741e, type: 3}

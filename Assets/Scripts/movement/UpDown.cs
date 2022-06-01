@@ -10,6 +10,7 @@ public class UpDown : MonoBehaviour
     public float minY = 0;
     private bool stopped = false;
     public int stopPos = 0;
+    public bool suavize = false;
     public float stopInterval = 0;
     private float stopTimer = 0;
     
@@ -27,9 +28,15 @@ public class UpDown : MonoBehaviour
         Vector2 pos = transform.position;
         checkStop(pos);
         if(!stopped){
+            
             if (pos.y > maxY || pos.y < minY)
-            moveUp = !moveUp;
-            pos.y += moveSpeed * Time.fixedDeltaTime * (moveUp ? 1 : -1);
+                moveUp = !moveUp;
+            if(suavize && (pos.y > (maxY - maxY * 20 / 100) || pos.y < (minY - minY * 20 / 100))){
+                pos.y += moveSpeed/4 * Time.fixedDeltaTime * (moveUp? 1: - 1); 
+            }
+            else{
+                pos.y += moveSpeed * Time.fixedDeltaTime * (moveUp ? 1 : -1);
+            }
             transform.position = pos;
         }
     }

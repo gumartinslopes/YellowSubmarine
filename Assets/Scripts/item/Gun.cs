@@ -23,7 +23,7 @@ public class Gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      transform.Rotate(0,0,minAngle);
+      //transform.Rotate(0,0,maxAngle);
     }
 
     // Update is called once per frame

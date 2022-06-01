@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 1, y: 0}
-  speed: 10
+  speed: 15
   velocity: {x: 0, y: 0}
   isEnemy: 1
   hitDmg: 10

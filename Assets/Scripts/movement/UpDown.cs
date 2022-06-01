@@ -28,7 +28,6 @@ public class UpDown : MonoBehaviour
         Vector2 pos = transform.position;
         checkStop(pos);
         if(!stopped){
-            
             if (pos.y > maxY || pos.y < minY)
                 moveUp = !moveUp;
             if(suavize && (pos.y > (maxY - maxY * 20 / 100) || pos.y < (minY - minY * 20 / 100))){
@@ -41,12 +40,13 @@ public class UpDown : MonoBehaviour
         }
     }
     private void checkStop(Vector2 pos){
-        if((int)pos.y == stopPos && stopTimer <= stopInterval){
+        if((pos.y > maxY || pos.y < minY) && stopTimer <= stopInterval){
             stopped = true;
-            stopTimer +=Time.deltaTime;
+            stopTimer += Time.deltaTime;
         }
         else{
             stopped = false;
+            stopTimer = 0f;
         }
     }
 }

@@ -19,37 +19,51 @@ public class GunController : MonoBehaviour
     {
         GunGroup guns = transform.GetComponentInChildren<GunGroup>();
         if(timeCounter < timeAttack1){
-            guns.activeWeapons = 1;
-            guns.globalIsRotative = false;
-            guns.globalAutoShoot = true; 
-            guns.globalInverted = true; 
-            guns.globalShootIntervalSeconds = 1.5f;
-            guns.globalShootDelaySeconds = 0f;
+            setupEasyAttack(guns);
         }
         else if(timeCounter >= timeAttack1 && timeCounter < timeAttack2){
-            guns.activeWeapons = 2;
-            guns.globalIsRotative = false;
-            guns.globalAutoShoot = true; 
-            guns.globalInverted = true; 
-            guns.globalShootIntervalSeconds = 1.5f;
-            guns.globalShootDelaySeconds = 0f;
+            setupSubEasyAttack(guns);
         } 
         else if(timeCounter >= timeAttack2 && timeCounter < timeAttack3){
-            guns.activeWeapons = 3;
-            guns.globalIsRotative = true;
-            guns.globalAutoShoot = true; 
-            guns.globalInverted = true; 
-            guns.globalShootIntervalSeconds = 0.1f;
-            guns.globalShootDelaySeconds = 0f;
+            setupMediumAttack(guns);
         }  
         else{
-            guns.activeWeapons = 5;
-            guns.globalIsRotative = true;
-            guns.globalAutoShoot = true; 
-            guns.globalInverted = true; 
-            guns.globalShootIntervalSeconds = 0.1f;
-            guns.globalShootDelaySeconds = 0f;
+            setupHardAttack(guns);
         }
         timeCounter+= Time.deltaTime;
+    }
+    private void setupEasyAttack(GunGroup guns){
+        guns.activeWeapons = 1;
+        guns.globalIsRotative = false;
+        guns.globalAutoShoot = true; 
+        guns.globalInverted = true; 
+        guns.globalShootIntervalSeconds = 1.5f;
+        guns.globalShootDelaySeconds = 0f;
+    }
+
+    private void setupSubEasyAttack(GunGroup guns){
+        guns.activeWeapons = 3;
+        guns.globalIsRotative = false;
+        guns.globalAutoShoot = true; 
+        guns.globalInverted = true; 
+        guns.globalShootIntervalSeconds = 1.5f;
+        guns.globalShootDelaySeconds = 0f;
+    }
+
+    private void setupMediumAttack(GunGroup guns){
+        guns.activeWeapons = 5;
+        guns.globalIsRotative = false;
+        guns.globalAutoShoot = true; 
+        guns.globalInverted = true; 
+        guns.globalShootIntervalSeconds = 1f;
+        guns.globalShootDelaySeconds = 0f;
+    }
+    private void setupHardAttack(GunGroup guns){
+        guns.activeWeapons = 8;
+        guns.globalIsRotative = false;
+        guns.globalAutoShoot = true; 
+        guns.globalInverted = true; 
+        guns.globalShootIntervalSeconds = 0.07f;
+        guns.globalShootDelaySeconds = 0f;
     }
 }

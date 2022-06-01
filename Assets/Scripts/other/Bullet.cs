@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         //após três segundos as balas irão desaparecer.
-        Destroy(gameObject, 3);
+        Destroy(gameObject, 4);
     }
 
 

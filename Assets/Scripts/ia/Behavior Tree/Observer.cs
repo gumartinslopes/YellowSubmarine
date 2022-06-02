@@ -8,10 +8,11 @@ public class Observer : MonoBehaviour
 
     [SerializeField] private AttackController AttackController;
     [SerializeField] private Submarine submarine;
-    private float playerdmg;
-    private float bossdmg;
-    private float time;
-    private float bp;
+    public float playerdmg;
+    public float bossdmg;
+    public float time;
+    public float bp;
+    private Selector topNode;
 
     // Start is called before the first frame update
     void Start()
@@ -26,9 +27,10 @@ public class Observer : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (time % 10 == 0) 
+        if (time % 10 >= 0 && time % 10 <= 1.0) 
         {
             BPCalculation();
+            topNode.Evaluate();
         };
     }
 
@@ -77,7 +79,7 @@ public class Observer : MonoBehaviour
         Sequence NM3AS = new Sequence(new List<NodeIA> { NM3AN });
         Sequence NM2AS = new Sequence(new List<NodeIA> { NM2AN, new PlayerDmgNode(playerdmg, 0), NM3AS});
         Sequence NM1AS = new Sequence(new List<NodeIA> { NM1AN, new BossDmgNode(bossdmg, 0), NM2AS });
-        Sequence NormalMode = new Sequence(new List<NodeIA> { new BossPointsNode(bp, 0), NM1AS });
+        Sequence NormalMode = new Sequence(new List<NodeIA> { new BossPointsNode(bp, 50), NM1AS });
 
         //hard tree
         Sequence HM5AS = new Sequence(new List<NodeIA> { HM5AN });
@@ -85,9 +87,9 @@ public class Observer : MonoBehaviour
         Sequence HM3AS = new Sequence(new List<NodeIA> { HM3AN, new BossDmgNode(bossdmg, 0), HM4AN });
         Sequence HM2AS = new Sequence(new List<NodeIA> { HM2AN, new PlayerHpNode(submarine.hp, 0), HM3AN });
         Sequence HM1AS = new Sequence(new List<NodeIA> { HM1AN, new TimeSceneNode(time, 0), HM2AN });
-        Sequence HardMode = new Sequence(new List<NodeIA> { new BossPointsNode(bp, 0), HM1AS });
+        Sequence HardMode = new Sequence(new List<NodeIA> { new BossPointsNode(bp, 100), HM1AS });
 
-        Selector topNode = new Selector(new List<NodeIA> { HardMode, NormalMode, IziMode });
+        topNode = new Selector(new List<NodeIA> { HardMode, NormalMode, IziMode });
 
     }
 }

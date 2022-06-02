@@ -14,6 +14,7 @@ public class Gun : MonoBehaviour
     public float minAngle = 0f;
     public float maxAngle = 0f;
     public bool fullRotation = false;
+    public float speedRotation = 0.5f;
 
     
 
@@ -77,7 +78,7 @@ public class Gun : MonoBehaviour
         if((transform.localRotation.z <= minAngle/100 || transform.localRotation.z > maxAngle/100) && !fullRotation){
           rotateRight =! rotateRight;
         }
-        transform.Rotate(0,0,.5f * ((rotateRight)?1f:-1f));
+        transform.Rotate(0,0,speedRotation * ((rotateRight)?1f:-1f));
       }
     }
 }

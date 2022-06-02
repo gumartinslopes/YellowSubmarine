@@ -11,54 +11,53 @@ public class AttackController : MonoBehaviour
     private float timeAttack4 = 68.1f;
     private float timeAttack5 = 79.18f;
     private int currentAttack = -1;
+    private GunGroup guns;
 
     void Start()
     {
-        
+        guns = transform.GetComponentInChildren<GunGroup>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        GunGroup guns = transform.GetComponentInChildren<GunGroup>();
         
         //SpawnGroup spawns = transform.GetComponentInChildren<SpawnGroup>();
         
         if(timeCounter < timeAttack1){
-            setupEasyAttack(guns);
+            EM1A();
             currentAttack = 0;
         }
         else if(timeCounter >= timeAttack1 && timeCounter < timeAttack2){
-            setupEasyAttack2(guns);
+            EM2A();
             currentAttack = 1;
         } 
         else if(timeCounter >= timeAttack2 && timeCounter < timeAttack3){
-            setupMediumAttack(guns);
+            setupMediumAttack();
             currentAttack = 2;
         }  
         else if(timeCounter >= timeAttack3 && timeCounter < timeAttack4){
-            setupHardAttack(guns);
+            setupHardAttack();
             currentAttack = 3;
         }  
         else if(timeCounter >= timeAttack4 && timeCounter < timeAttack5){
-            setupUltraHardAttack(guns);
+            setupUltraHardAttack();
             currentAttack = 4;
         } 
         else {
-            setupUltraHardAttack2(guns);
+            setupUltraHardAttack2();
             currentAttack = 5;
         }
         
         timeCounter+= Time.deltaTime;
     }
 
-    private void stopAttack(GunGroup guns){
+    public void stopAttack(){
         guns.activeWeapons = 0;
         guns.globalIsRotative = false;
     }
 
-    private void setupEasyAttack(GunGroup guns){
-        
+    public void EM1A(){
         UpDown UpDownMovement = transform.parent.GetComponent<UpDown>();  
         UpDownMovement.stopInterval = 0f;
 
@@ -70,7 +69,7 @@ public class AttackController : MonoBehaviour
         
     }
 
-    private void setupEasyAttack2(GunGroup guns){
+    public void EM2A(){
         if(currentAttack !=1){
             guns.activeWeapons = 3;
             guns.globalIsRotative = false;
@@ -80,7 +79,20 @@ public class AttackController : MonoBehaviour
         }
     }
 
-    private void setupMediumAttack(GunGroup guns){
+    public void setupIziAttack(){
+        if(currentAttack != 2){
+            UpDown UpDownMovement = transform.parent.GetComponent<UpDown>();  
+            UpDownMovement.stopInterval = 1f;
+
+            guns.activeWeapons = 1;
+            guns.globalIsRotative = false;
+            guns.globalAutoShoot = true; 
+            guns.globalShootIntervalSeconds = 5f;
+            guns.globalShootDelaySeconds = 0f;
+        }
+    }
+
+    public void setupMediumAttack(){
         if(currentAttack != 2){
             UpDown UpDownMovement = transform.parent.GetComponent<UpDown>();  
             UpDownMovement.stopInterval = 1f;
@@ -92,7 +104,7 @@ public class AttackController : MonoBehaviour
             guns.globalShootDelaySeconds = 0f;
         }
     }
-    private void setupHardAttack(GunGroup guns){
+    public void setupHardAttack(){
         if(currentAttack != 3){
             guns.activeWeapons = 8;
             guns.globalIsRotative = false;
@@ -101,7 +113,7 @@ public class AttackController : MonoBehaviour
             guns.globalShootDelaySeconds = 0f;
         }
     }
-    private void setupUltraHardAttack(GunGroup guns){
+    public void setupUltraHardAttack(){
         if(currentAttack != 4){
             disableSpawners();
             guns.activeWeapons = 8;
@@ -112,7 +124,7 @@ public class AttackController : MonoBehaviour
             guns.fullRotation = true;
         }
     }
-    private void setupUltraHardAttack2(GunGroup guns){
+    public void setupUltraHardAttack2(){
         if(currentAttack != 5){
             Spawner []spawners = transform.GetComponentsInChildren<Spawner>();
             UpDown UpDownMovement = transform.parent.GetComponent<UpDown>();   
@@ -138,7 +150,7 @@ public class AttackController : MonoBehaviour
         }
     }
 
-    private void disableSpawners(){
+    public void disableSpawners(){
         Spawner []spawners = transform.GetComponentsInChildren<Spawner>();
         foreach (Spawner spawner in spawners)
         {   

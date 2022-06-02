@@ -12,20 +12,15 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        //após três segundos as balas irão desaparecer.
-        Destroy(gameObject, 4);
+        //após sete segundos as balas irão desaparecer.
+        Destroy(gameObject, 3);
     }
 
 
     void Update()
     {
         velocity = direction * speed;
-        bool outXLeft = transform.position.x < -10f;
-        bool outXRight = transform.position.x > 10f;
-        bool outYUp = transform.position.y > 5f;
-        bool outYDown = transform.position.y < -5f;
-        if(outYUp || outXLeft || outXRight || outYDown)
-          Destroy(gameObject);
+        
     }
 
     private void FixedUpdate(){

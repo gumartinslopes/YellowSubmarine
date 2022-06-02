@@ -7,10 +7,12 @@ public class Spawner : MonoBehaviour
     public GameObject enemy;
     public float spawnRate;
     public float awaitInitTime;
-    private float timeCounter = 0f;
     public float lifetime = 60f;
-    
+    public bool active = true;
+
     private float nextSpawn = 0f;
+    private float timeCounter = 0f;
+
     void Start()
     {
 
@@ -19,7 +21,7 @@ public class Spawner : MonoBehaviour
     void Update()
     {
         if(timeCounter > awaitInitTime){
-          if(Time.time > nextSpawn){
+          if(Time.time > nextSpawn && active){
             nextSpawn = Time.time + spawnRate;
             Instantiate(enemy, transform.position, enemy.transform.rotation);
           }
@@ -27,9 +29,10 @@ public class Spawner : MonoBehaviour
         timeCounter += Time.deltaTime;
         checkLifetime();
     }
+
     private void checkLifetime(){
       if((timeCounter - awaitInitTime) > lifetime){
-        Destroy(gameObject);
+        active = false;
       }
     }
 }

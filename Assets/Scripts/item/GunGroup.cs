@@ -11,6 +11,7 @@ public class GunGroup : MonoBehaviour
     public float globalShootIntervalSeconds = 0.5f;
     public float globalShootDelaySeconds = 0.0f;
     public int activeWeapons = 5;
+    public bool fullRotation = false;
     public Gun []guns;
 
 
@@ -32,6 +33,14 @@ public class GunGroup : MonoBehaviour
             guns[i].inverted = globalInverted; 
             guns[i].shootIntervalSeconds = globalShootIntervalSeconds;
             guns[i].shootDelaySeconds = globalShootDelaySeconds;
+            guns[i].fullRotation = fullRotation;
+        }
+    }
+    public void resetRotation(){
+        guns = transform.GetComponentsInChildren<Gun>();
+        int upperBound = (activeWeapons < guns.Length)?activeWeapons:guns.Length;
+        for (int i = 0; i < upperBound; i++){
+            guns[i].transform.rotation = new Quaternion(0,0,guns[i].minAngle, 1);
         }
     }
 }

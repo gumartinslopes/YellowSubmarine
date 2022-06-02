@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FloatLeftRight : MonoBehaviour
 {
+
     public float maxX=  0f;
     public float minX = 0f;
     public float moveSpeed = 1f;

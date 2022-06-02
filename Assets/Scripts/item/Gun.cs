@@ -13,6 +13,7 @@ public class Gun : MonoBehaviour
     public Bullet bullet;
     public float minAngle = 0f;
     public float maxAngle = 0f;
+    public bool fullRotation = false;
 
     
 
@@ -60,9 +61,8 @@ public class Gun : MonoBehaviour
 
     public void Rotate(){
       if(isRotative){
-        if(transform.localRotation.z <= minAngle/100 || transform.localRotation.z > maxAngle/100){
-          //Debug.Log("Z" + transform.localRotation.z);
-          rotateRight = !rotateRight;
+        if((transform.localRotation.z <= minAngle/100 || transform.localRotation.z > maxAngle/100) && !fullRotation){
+          rotateRight =! rotateRight;
         }
         transform.Rotate(0,0,.5f * ((rotateRight)?1f:-1f));
       }

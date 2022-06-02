@@ -10,7 +10,7 @@ public class ChangeScene : MonoBehaviour
 
     public void Update() {
         if (submarino != null) {
-            if (submarino.hp == 1) {
+            if (submarino.hp <= 0) {
                 SceneManager.LoadScene(sceneName);
             }
         }

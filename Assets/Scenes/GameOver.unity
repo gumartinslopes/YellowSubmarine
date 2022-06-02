@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  submarino: {fileID: 0}
 --- !u!114 &829288481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,8 +361,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.371}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000009530428, y: 0.0000005898198}
-  m_SizeDelta: {x: 780.42, y: 491.7}
+  m_AnchoredPosition: {x: -4.27, y: 0.0000005898198}
+  m_SizeDelta: {x: 805.26, y: 491.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874296081
 MonoBehaviour:
@@ -927,6 +928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: SubmarineGame
+  submarino: {fileID: 0}
 --- !u!114 &1969757975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,6 +1077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Menu
+  submarino: {fileID: 0}
 --- !u!114 &1997015650
 MonoBehaviour:
   m_ObjectHideFlags: 0

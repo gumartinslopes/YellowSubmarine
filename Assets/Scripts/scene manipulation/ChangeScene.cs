@@ -6,17 +6,18 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public string sceneName;
-    public Animator anim;
+    public Submarine? submarino = null;
 
-    public void ChangeS() {
-        StartCoroutine(LoadScene());
+    public void Update() {
+        if (submarino != null) {
+            if (submarino.hp == 1) {
+                SceneManager.LoadScene(sceneName);
+            }
+        }
     }
 
-    IEnumerator LoadScene() {
-        anim.SetBool("call", true);
-        yield return new WaitForSeconds(2.0f);
+    public void ChangeS() {
         SceneManager.LoadScene(sceneName);
-        anim.SetBool("call", false);
     }
 
     public void Sair() {

@@ -31,20 +31,20 @@ public class Submarine : MonoBehaviour {
         this.speedUp = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
 
         //chcagem de tiro
-    
-        if(Input.GetKey(KeyCode.Space)){
+
+        if (Input.GetKey(KeyCode.Space)) {
             guns[0].Shoot();
-            if(level > 2){
+            if (level > 2) {
                 guns[1].Shoot();
                 guns[2].Shoot();
-                if(level > 3){
+                if (level > 3) {
                     guns[3].Shoot();
                     guns[4].Shoot();
                 }
             }
-            
+
         }
-        else if(Input.GetKey(KeyCode.C))
+        else if (Input.GetKey(KeyCode.C))
             guns[5].Shoot();
     }
 
@@ -104,28 +104,53 @@ public class Submarine : MonoBehaviour {
 
         transform.position = pos;
     }
+
     //colisão
-    private void OnTriggerEnter2D(Collider2D collision){
-      Bullet bullet = collision.GetComponent<Bullet>();
-      if(bullet != null){
-        if(bullet.isEnemy){
-            takeDmg(bullet.hitDmg);
-            Destroy(bullet.gameObject);
+    private void OnTriggerEnter2D(Collider2D collision) {
+        Bullet bullet = collision.GetComponent<Bullet>();
+
+        //Item de HP
+        if (collision.gameObject.CompareTag("PowerUpHp"))
+        {
+            AumentarVida(collision.gameObject.GetComponent<ItemHp>().hpPlus);
+            Destroy(collision.gameObject);
         }
-      }
-      Destructable destructable = collision.GetComponent<Destructable>();
-      if(destructable != null){
-          takeDmg(destructable.hitDmg);
-        //Destroy(destructable.gameObject);
-      }
+
+        if (collision.gameObject.CompareTag("PowerUpShootingRating"))
+        {
+            UpShootingRate(collision.gameObject.GetComponent<ShootingRateUp>().shootIntervalSeconds);
+            Destroy(collision.gameObject);
+        }
+
+        if (bullet != null) {
+            if (bullet.isEnemy) {
+                takeDmg(bullet.hitDmg);
+                Destroy(bullet.gameObject);
+            }
+        }
+        Destructable destructable = collision.GetComponent<Destructable>();
+        if (destructable != null) {
+            takeDmg(destructable.hitDmg);
+            //Destroy(destructable.gameObject);
+        }
     }
 
-    private void gameOver(){
-        if(!invencible && hp <= 0)
+    private void gameOver() {
+        if (!invencible && hp <= 0)
             Destroy(gameObject);
     }
 
-    private void takeDmg(int dmg){
+    private void takeDmg(int dmg) {
         hp -= dmg;
+    }
+
+    private void AumentarVida(int hpUp)
+    {
+        hp += hpUp;
+    }
+
+    private void UpShootingRate(float ShootingRate)
+    {
+        guns[0].UpShootingRateGun(ShootingRate);
     }
 }

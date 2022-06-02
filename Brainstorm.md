@@ -31,10 +31,10 @@ Ideias para cenas.
 
 ## Power Ups💪(André)
 ---
-- [ ] Upgrade no shooting rate do personagem(gun.ShootIntervalSeconds).
+- [x] Upgrade no shooting rate do personagem(gun.ShootIntervalSeconds).
 - [ ] Adição de mais armas no personagem.
 	- [x] Tiro concentrado.
-- [ ] Aumento do hp do personagem.
+- [x] Aumento do hp do personagem.
 - [ ] Invencibilidade momentânea.
 - [x] Grupo de orbes.
 

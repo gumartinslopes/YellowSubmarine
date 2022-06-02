@@ -41,6 +41,19 @@ public class Gun : MonoBehaviour
         Rotate();
     }
 
+    //Aumenta a velocidade dos tiros
+    public void UpShootingRateGun(float ShootingRate)
+    {      
+        shootIntervalSeconds -= ShootingRate;
+        Invoke("BackUpShootingRateGun", 2); //Volta a velocidade dos tiros ao normal depois de 10 segundos
+    }
+
+    //Diminui a velocidade dos tiros
+    public void BackUpShootingRateGun()
+    {    
+     shootIntervalSeconds = 0.1f;
+    }
+
     public void Shoot(){
       if(delayTimer >= shootDelaySeconds){
           if(shootTimer >= shootIntervalSeconds){

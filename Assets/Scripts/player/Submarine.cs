@@ -165,6 +165,10 @@ public class Submarine : MonoBehaviour {
     private void UpShootingRate(float ShootingRate)
     {
         guns[0].UpShootingRateGun(ShootingRate);
+        guns[1].UpShootingRateGun(ShootingRate);
+        guns[2].UpShootingRateGun(ShootingRate);
+        guns[3].UpShootingRateGun(ShootingRate);
+        guns[4].UpShootingRateGun(ShootingRate);
     }
 
     private void invisible(){

@@ -53,6 +53,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 430501825, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.16
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -115,17 +139,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 430501825, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.16
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8177872
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.085818
+      value: -1.32
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -177,9 +225,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1262411701, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -239,9 +319,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1346429723, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -301,9 +413,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1755189841, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.77
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -363,9 +507,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1755189841, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.77
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -425,13 +601,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1262411701, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.977788
+      value: 2.29
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -486,6 +694,30 @@ PrefabInstance:
     - target: {fileID: 7235983643090711732, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_Name
       value: MiniFishSin (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 430501825, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.16
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
@@ -549,17 +781,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1262411701, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.3288755
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.794182
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -611,9 +875,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1346429723, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -673,17 +969,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniFishSin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1346429723, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711734, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711736, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.3288755
+      value: 5.23
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.794182
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: 7235983643090711737, guid: 25932e0e060be624d8cd2e0e208adb2f, type: 3}
       propertyPath: m_LocalPosition.z

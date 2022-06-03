@@ -16,6 +16,12 @@ public class Submarine : MonoBehaviour {
     private bool speedUp;
     private float moveSpeed = 5;
 
+
+    private float dmgBlinkCounter = 0f;
+    private float dmgInterval = 1f;
+    private float dmgBlinkInterval = 0.5f;
+    private bool isInvisible = false;
+
     private Gun[] guns;
 
     void Start() {
@@ -46,6 +52,8 @@ public class Submarine : MonoBehaviour {
         }
         else if (Input.GetKey(KeyCode.C))
             guns[5].Shoot();
+        if(isInvisible)
+            dmgBlinkCounter += Time.fixedDeltaTime; 
     }
 
     private void FixedUpdate() {
@@ -103,6 +111,7 @@ public class Submarine : MonoBehaviour {
         }
 
         transform.position = pos;
+        invisible();
     }
 
     //colisão
@@ -136,12 +145,16 @@ public class Submarine : MonoBehaviour {
     }
 
     private void gameOver() {
-        if (!invencible && hp <= 0)
+        if (hp <= 0)
             Destroy(gameObject);
     }
 
     private void takeDmg(int dmg) {
-        hp -= dmg;
+        if(!invencible && !isInvisible){
+            hp -= dmg;
+            isInvisible = true;
+            
+        }
     }
 
     private void AumentarVida(int hpUp)
@@ -152,5 +165,16 @@ public class Submarine : MonoBehaviour {
     private void UpShootingRate(float ShootingRate)
     {
         guns[0].UpShootingRateGun(ShootingRate);
+    }
+
+    private void invisible(){
+        if(dmgBlinkCounter <= dmgInterval && isInvisible){        
+            transform.GetComponent<SpriteRenderer>().color = new Color(1, 1f, 1f, 0.5f);
+        }
+        else{
+            dmgBlinkCounter = 0f;
+            transform.GetComponent<SpriteRenderer>().color = new Color(1, 1f, 1f, 1f);
+            isInvisible = false;
+        }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,42 +16,65 @@ public class AttackNode : NodeIA
         this.attacks = attacks;
     }
 
+    void update(){}
+
     public override NodeState Evaluate()
     {
+        
         switch(this.mode)
         {
+                
             case "hard":
+                Console.WriteLine("HARD");
                 switch(this.num)
                 {
                     case 1:
+                        attacks.HM1A();
+                        WaitForSeconds(10);
                         break;
                     case 2:
+                        attacks.HM2A();
+                        WaitForSeconds(10);
                         break;
                     case 3:
-                        break;
-                    case 4:
-                        break;
-                    case 5:
+                        attacks.HM3A();
+                        WaitForSeconds(10);
                         break;
                 }
                 break;
             case "normal":
+                Console.WriteLine("NORMAL");
                 switch (this.num)
                 {
                     case 1:
-                        //HM1A();
+                        attacks.NM1A();
+                        WaitForSeconds(10);
                         break;
                     case 2:
+                        attacks.NM2A();
+                        WaitForSeconds(10);
                         break;
                     case 3:
+                        attacks.NM3A();
+                        WaitForSeconds(10);
                         break;   
                 }
                 break;
             case "izi":
+                Console.WriteLine("EAZY");
                 switch (this.num)
                 {
                     case 1:
-                        //HM1A();
+                        attacks.EM1A();
+                        WaitForSeconds(10);
+                        break;
+                    case 2:
+                        attacks.EM2A();
+                        WaitForSeconds(10);
+                        break;
+                    case 3:
+                        attacks.EM3A();
+                        WaitForSeconds(10);
                         break;
                 }
                 break;
@@ -58,5 +82,8 @@ public class AttackNode : NodeIA
         return NodeState.SUCCESS;
     }
 
-    //private void HM1A();
+    private IEnumerator WaitForSeconds(int v)
+    {
+        yield return new WaitForSeconds(v);
+    }
 }

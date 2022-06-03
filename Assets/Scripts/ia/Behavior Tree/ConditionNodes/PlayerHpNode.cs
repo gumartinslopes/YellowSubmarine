@@ -15,6 +15,8 @@ public class PlayerHpNode : NodeIA
 
     public override NodeState Evaluate()
     {
-        return playerhp >= threshold ? NodeState.SUCCESS : NodeState.FAILURE;
+        return playerhp >= 0 ? NodeState.SUCCESS : NodeState.FAILURE;
+
+        //return playerhp >= threshold ? NodeState.SUCCESS : NodeState.FAILURE;
     }
 }

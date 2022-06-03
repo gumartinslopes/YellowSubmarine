@@ -10,7 +10,8 @@ public class GunGroup : MonoBehaviour
     public bool globalInverted = false; 
     public float globalShootIntervalSeconds = 0.5f;
     public float globalShootDelaySeconds = 0.0f;
-    public int activeWeapons = 5;
+    public int activeWeapons = 0;
+    public float globalSpeedRotation = 0.5f;
     public bool fullRotation = false;
     public Gun []guns;
 
@@ -34,6 +35,7 @@ public class GunGroup : MonoBehaviour
             guns[i].shootIntervalSeconds = globalShootIntervalSeconds;
             guns[i].shootDelaySeconds = globalShootDelaySeconds;
             guns[i].fullRotation = fullRotation;
+            guns[i].speedRotation = globalSpeedRotation;
         }
     }
     public void resetRotation(){

@@ -6,9 +6,9 @@ public class ToastyDude : MonoBehaviour
 {
     public float awaitTime = 0;
     public float moveSpeed = 5;
-    private float initialX = 12.44f;
-    private float initialY = -2.51f;
-    private float finalX = 9.5f;
+    private float initialX = -11.62f;
+    private float initialY = -3.46f;
+    private float finalX = -8.09f;
     private bool goingBack = false;
     void Start()
     {
@@ -19,10 +19,10 @@ public class ToastyDude : MonoBehaviour
     void Update()
     {
         Vector2 pos = transform.position;
-        if(pos.x <= finalX){
+        if(pos.x >= finalX){
             goingBack = true;
         }
-        pos.x += moveSpeed * Time.fixedDeltaTime * ((goingBack)?  1 :  -1);
+        pos.x += moveSpeed * Time.fixedDeltaTime * ((goingBack)?  -1 :  1);
         transform.position = pos;
         if(pos.x > 13){
                 Destroy(gameObject);

@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BossFIght.unity
     guid: b8144a67853e4134ba2ce324149db653
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 5ae11055e179b3642a56384729fb47ed
+  - enabled: 1
+    path: Assets/Scenes/Instrucoes.unity
+    guid: c7eaaeed0d3f82c459a5334efb18dbcb
   m_configObjects: {}

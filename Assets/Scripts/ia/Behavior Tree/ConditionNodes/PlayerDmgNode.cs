@@ -15,6 +15,8 @@ public class PlayerDmgNode : NodeIA
 
     public override NodeState Evaluate()
     {
-        return playerdmg >= this.threshold ? NodeState.SUCCESS : NodeState.FAILURE;
+        return playerdmg >= 0 ? NodeState.SUCCESS : NodeState.FAILURE;
+
+        //return playerdmg >= this.threshold ? NodeState.SUCCESS : NodeState.FAILURE;
     }
 }

@@ -136,12 +136,13 @@ public class Submarine : MonoBehaviour {
     }
 
     private void gameOver() {
-        if (!invencible && hp <= 0)
+        if (hp <= 0)
             Destroy(gameObject);
     }
 
     private void takeDmg(int dmg) {
-        hp -= dmg;
+        if(!invencible)
+            hp -= dmg;
     }
 
     private void AumentarVida(int hpUp)

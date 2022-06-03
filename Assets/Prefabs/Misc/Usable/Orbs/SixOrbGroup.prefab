@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4868013865421750007}
   - component: {fileID: 4868013865421750005}
   - component: {fileID: 4868013865421750004}
+  - component: {fileID: 87483293882732368}
   m_Layer: 0
   m_Name: Orb (5)
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.9125825, g: 1, b: 0, a: 1}
   m_FlipX: 0
@@ -102,6 +103,21 @@ MonoBehaviour:
   rotationRadius: 0
   angle: 0
   rotateRight: 0
+--- !u!114 &87483293882732368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868013865421750006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 1
 --- !u!1 &4868013865473891232
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,6 +129,7 @@ GameObject:
   - component: {fileID: 4868013865473891233}
   - component: {fileID: 4868013865473891263}
   - component: {fileID: 4868013865473891262}
+  - component: {fileID: 994018545152838155}
   m_Layer: 0
   m_Name: Orb (2)
   m_TagString: Untagged
@@ -175,7 +192,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.06753528, g: 1, b: 0, a: 1}
   m_FlipX: 0
@@ -204,6 +221,21 @@ MonoBehaviour:
   rotationRadius: 0
   angle: 90
   rotateRight: 0
+--- !u!114 &994018545152838155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868013865473891232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 1
 --- !u!1 &4868013865535949082
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +247,7 @@ GameObject:
   - component: {fileID: 4868013865535949083}
   - component: {fileID: 4868013865535949081}
   - component: {fileID: 4868013865535949080}
+  - component: {fileID: 8787372328024744119}
   m_Layer: 0
   m_Name: Orb
   m_TagString: Untagged
@@ -277,7 +310,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0, g: 1, b: 0.98856425, a: 1}
   m_FlipX: 0
@@ -306,6 +339,21 @@ MonoBehaviour:
   rotationRadius: 0
   angle: 45
   rotateRight: 0
+--- !u!114 &8787372328024744119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868013865535949082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 1
 --- !u!1 &4868013865987569827
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +365,7 @@ GameObject:
   - component: {fileID: 4868013865987569824}
   - component: {fileID: 4868013865987569854}
   - component: {fileID: 4868013865987569825}
+  - component: {fileID: 6330288828699623720}
   m_Layer: 0
   m_Name: Orb (1)
   m_TagString: Untagged
@@ -379,7 +428,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}
   m_FlipX: 0
@@ -408,6 +457,21 @@ MonoBehaviour:
   rotationRadius: 0
   angle: 180
   rotateRight: 0
+--- !u!114 &6330288828699623720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868013865987569827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 1
 --- !u!1 &4868013865999162822
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +483,7 @@ GameObject:
   - component: {fileID: 4868013865999162823}
   - component: {fileID: 4868013865999162821}
   - component: {fileID: 4868013865999162820}
+  - component: {fileID: 2591719330928086380}
   m_Layer: 0
   m_Name: Orb (3)
   m_TagString: Untagged
@@ -481,7 +546,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0.6231971, a: 1}
   m_FlipX: 0
@@ -510,6 +575,21 @@ MonoBehaviour:
   rotationRadius: 0
   angle: 225
   rotateRight: 0
+--- !u!114 &2591719330928086380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868013865999162822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 1
 --- !u!1 &4868013866448776000
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4868013866448776030}
     m_Modifications:
+    - target: {fileID: 8373101000309517473, guid: 8c2e0359b8236f44694c526c0950a2d8, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8373101000309517474, guid: 8c2e0359b8236f44694c526c0950a2d8, type: 3}
       propertyPath: m_Name
       value: Orb (4)
@@ -620,6 +704,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c2e0359b8236f44694c526c0950a2d8, type: 3}
+--- !u!1 &4868013864998361206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8373101000309517474, guid: 8c2e0359b8236f44694c526c0950a2d8, type: 3}
+  m_PrefabInstance: {fileID: 4016527172290082004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2873400568185626516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868013864998361206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 10
+  hp: 1
 --- !u!4 &4868013864998361207 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8373101000309517475, guid: 8c2e0359b8236f44694c526c0950a2d8, type: 3}

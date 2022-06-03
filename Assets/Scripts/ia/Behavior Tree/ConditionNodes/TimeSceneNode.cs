@@ -15,6 +15,8 @@ public class TimeSceneNode : NodeIA
 
     public override NodeState Evaluate()
     {
-        return time >= this.threshold ? NodeState.SUCCESS : NodeState.FAILURE;
+        return time >= 0 ? NodeState.SUCCESS : NodeState.FAILURE;
+
+        //return time >= this.threshold ? NodeState.SUCCESS : NodeState.FAILURE;
     }
 }

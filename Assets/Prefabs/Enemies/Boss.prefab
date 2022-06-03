@@ -222,7 +222,8 @@ GameObject:
   - component: {fileID: 6875934883408252213}
   - component: {fileID: 6875934883408252210}
   - component: {fileID: 4948946576581725453}
-  - component: {fileID: 5981585838475246023}
+  - component: {fileID: 5026965696292592030}
+  - component: {fileID: 3862886635392243833}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -238,8 +239,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6875934883408252215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.16, y: -0.16, z: 0}
-  m_LocalScale: {x: 5.7449737, y: 5.8465304, z: 1}
+  m_LocalPosition: {x: 9.3515, y: -0.16, z: 0}
+  m_LocalScale: {x: 6.480035, y: 5.8465304, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6875934884022028511}
@@ -338,7 +339,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &5981585838475246023
+--- !u!61 &5026965696292592030
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,7 +349,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -362,8 +363,24 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.83, y: 1.28}
+  m_Size: {x: 0.69, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &3862886635392243833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6875934883408252215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602603983e02918479138670d8639c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTakeDamage: 1
+  hitDmg: 50
+  hp: 2147483647
+  invicible: 1
 --- !u!1 &6875934884022028510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,7 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 6877209784078262397, guid: cf894d140704af34b8dbddac26896cd5, type: 3}
-  spawnRate: 2
+  spawnRate: 1
   awaitInitTime: 0
   lifetime: 60
   active: 1
@@ -1092,7 +1109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxX: 8.16
   minX: -9.13
-  moveSpeed: 2
+  moveSpeed: 5
 --- !u!1 &8470105395557794144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 6877209784078262397, guid: cf894d140704af34b8dbddac26896cd5, type: 3}
-  spawnRate: 2
+  spawnRate: 1
   awaitInitTime: 0
   lifetime: 60
   active: 1

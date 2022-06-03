@@ -7,6 +7,7 @@ public class Destructable : MonoBehaviour
     public bool canTakeDamage = true;
     public int hitDmg = 10;
     public int hp = 1;
+    public bool invicible = false;
 
     void Start()
     {
@@ -42,6 +43,8 @@ public class Destructable : MonoBehaviour
     }
 
     private void takeDmg(int dmg){
-        hp -= dmg;
+        if(!invicible){
+          hp -= dmg;
+        }
     }
 }

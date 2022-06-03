@@ -26,6 +26,7 @@ public class AttackController : MonoBehaviour
         guns = transform.GetComponentInChildren<GunGroup>();
         spawners = transform.GetComponentsInChildren<Spawner>();
         obs = transform.GetComponentInChildren<Observer>();
+        transform.parent.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
     }
     
     // Update is called once per frame
@@ -113,7 +114,7 @@ public class AttackController : MonoBehaviour
 
             disableSpawners();
 
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.244f, 0.186f, 0.229f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.244f, 0.186f, 0.229f, 1f);
             currentAttack = 0;
         }
     }
@@ -128,7 +129,7 @@ public class AttackController : MonoBehaviour
             guns.globalAutoShoot = true; 
             guns.globalShootIntervalSeconds = 1.5f;
             guns.globalShootDelaySeconds = 0f;
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.192f, 0.95f, 0.512f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.192f, 0.95f, 0.512f, 1f);
             disableSpawners();
             currentAttack = 1;
         }
@@ -146,7 +147,7 @@ public class AttackController : MonoBehaviour
             guns.globalAutoShoot = true; 
             guns.globalShootIntervalSeconds = 1f;
             guns.globalShootDelaySeconds = 0f;
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.203f, 0.47f, 0.235f, 1f);
+           // transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.203f, 0.47f, 0.235f, 1f);
             currentAttack = 2;
         }
     }
@@ -167,7 +168,7 @@ public class AttackController : MonoBehaviour
             guns.globalAutoShoot = true; 
             guns.globalShootIntervalSeconds = 1f;
             guns.globalShootDelaySeconds = 0f;
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.162f, 0.186f, 0.162f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.162f, 0.186f, 0.162f, 1f);
             currentAttack = 3;
         }
     }
@@ -186,7 +187,7 @@ public class AttackController : MonoBehaviour
             guns.globalShootIntervalSeconds = 0.5f;
             guns.globalShootDelaySeconds = 0f;
 
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.160f, 0.212f, 0.108f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.160f, 0.212f, 0.108f, 1f);
             currentAttack = 4;
         }
     }
@@ -206,7 +207,7 @@ public class AttackController : MonoBehaviour
             spawners[2].active = true;
             spawners[3].active = true;
             
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.10f, 0.66f, 0.11f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.10f, 0.66f, 0.11f, 1f);
             currentAttack = 5;
         }
     }
@@ -224,7 +225,7 @@ public class AttackController : MonoBehaviour
             guns.globalShootIntervalSeconds = 0.07f;
             guns.globalShootDelaySeconds = 0f;
             guns.fullRotation = true;
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.191f, 0.33f, 0.104f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.191f, 0.33f, 0.104f, 1f);
             currentAttack = 6;
         }
     }
@@ -258,7 +259,7 @@ public class AttackController : MonoBehaviour
             spawners[1].spawnRate = 1;
             spawners[2].spawnRate = 1;
 
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.168f, 0.34f, 0.34f, 1f);
+           //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.168f, 0.34f, 0.34f, 1f);
             currentAttack = 7;
         }
     }
@@ -282,7 +283,7 @@ public class AttackController : MonoBehaviour
             spawners[0].spawnRate = 1;
             spawners[2].spawnRate = 1;
             
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.255f, 0.0f, 0.0f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.255f, 0.0f, 0.0f, 1f);
         }
     }
 
@@ -314,7 +315,7 @@ public class AttackController : MonoBehaviour
             guns.fullRotation = true;
 
 
-            transform.parent.GetComponent<SpriteRenderer>().color = new Color(1f,1f, 1f, 1f);
+            //transform.parent.GetComponent<SpriteRenderer>().color = new Color(1f,1f, 1f, 1f);
             currentAttack = -1;
             disableSpawners();
     }

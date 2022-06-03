@@ -584,9 +584,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc658c10adaa1ef4bbc7a4571af5b7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 2828378657447567072, guid: 4d18c312b1996a147bc09beed1990d39, type: 3}
+  enemy: {fileID: 5165829897426962146, guid: bcc3f2e50ef20dc45bc1f277e5388de3, type: 3}
   spawnRate: 2
-  awaitInitTime: 5
+  awaitInitTime: 1
   lifetime: 10
   active: 1
 --- !u!4 &1032543141

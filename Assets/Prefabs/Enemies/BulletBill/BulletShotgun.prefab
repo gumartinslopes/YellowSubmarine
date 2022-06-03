@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5165829897426962146}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: -0, z: -0.017379114, w: 0.99984896}
   m_LocalPosition: {x: 16.34, y: 1.47, z: 0}
-  m_LocalScale: {x: 1.5, y: 1, z: 2}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6985326612698925442}
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 5955172460016693054}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.992}
 --- !u!212 &7725642801684068221
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -80,8 +80,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1000
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.028301895, g: 0.027634397, b: 0.027634397, a: 1}
+  m_Sprite: {fileID: -1139854827, guid: 156b9e4faaad34841a9dc531eacacda9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -206,10 +206,13 @@ MonoBehaviour:
   isRotative: 0
   autoShoot: 1
   inverted: 0
-  rotateLeft: 1
+  rotateRight: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
+  minAngle: 0
+  maxAngle: 0
+  fullRotation: 0
 --- !u!1 &5955172460187653090
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,10 +260,13 @@ MonoBehaviour:
   isRotative: 0
   autoShoot: 1
   inverted: 0
-  rotateLeft: 1
+  rotateRight: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
+  minAngle: 0
+  maxAngle: 0
+  fullRotation: 0
 --- !u!1 &6985326612698925565
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +314,10 @@ MonoBehaviour:
   isRotative: 0
   autoShoot: 1
   inverted: 0
-  rotateLeft: 1
+  rotateRight: 1
   shootIntervalSeconds: 1
   shootDelaySeconds: 0
   bullet: {fileID: 3276129619016390942, guid: b37d7eecac79aae43aa225e0070e4699, type: 3}
+  minAngle: 0
+  maxAngle: 0
+  fullRotation: 0

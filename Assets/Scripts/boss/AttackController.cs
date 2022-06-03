@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class AttackController : MonoBehaviour
 {
+    
     public int attack = 0;
+    
+    private Observer obs;
+    private float []attackIntervals;
+    public float []attackTimes;
     private float timeCounter = 0f;
     private float timeAttack1 = 15.5f;
     private float timeAttack2 = 28.533f;
     private float timeAttack3 = 41.51f;
     private float timeAttack4 = 68.1f;
     private float timeAttack5 = 79.18f;
+    private float iaTimeStart = 84.18f;
     private int currentAttack = -1;
     private GunGroup guns;
     Spawner[] spawners;
@@ -19,38 +25,34 @@ public class AttackController : MonoBehaviour
     {
         guns = transform.GetComponentInChildren<GunGroup>();
         spawners = transform.GetComponentsInChildren<Spawner>();
+        obs = transform.GetComponentInChildren<Observer>();
     }
     
     // Update is called once per frame
     void Update()
     {   
-        chooseAttack();
-        // if(timeCounter < timeAttack1){
-        //     EM1A();
-        //     currentAttack = 0;
-        // }
-        // else if(timeCounter >= timeAttack1 && timeCounter < timeAttack2){
-        //     EM2A();
-        //     currentAttack = 1;
-        // } 
-        // else if(timeCounter >= timeAttack2 && timeCounter < timeAttack3){
-        //     NM1A();
-        //     currentAttack = 2;
-        // }  
-        // else if(timeCounter >= timeAttack3 && timeCounter < timeAttack4){
-        //     setupHardAttack();
-        //     currentAttack = 3;
-        // }  
-        // else if(timeCounter >= timeAttack4 && timeCounter < timeAttack5){
-        //     setupUltraHardAttack();
-        //     currentAttack = 4;
-        // } 
-        // else {
-        //     setupUltraHardAttack2();
-        //     currentAttack = 5;
-        // }
         
-        // timeCounter+= Time.deltaTime;
+        // //chooseAttack();
+        if(timeCounter < timeAttack1){
+            EM1A();
+        }
+        else if(timeCounter >= timeAttack1 && timeCounter < timeAttack2){
+            EM2A();
+        } 
+        else if(timeCounter >= timeAttack2 && timeCounter < timeAttack3){
+            NM1A();
+        }  
+        else if(timeCounter >= timeAttack3 && timeCounter < timeAttack4){
+            HM1A();
+        }  
+        else if(timeCounter >= timeAttack4 && timeCounter < timeAttack5){
+            HM2A();
+        } 
+        else if(timeCounter >= timeAttack5 && timeCounter < iaTimeStart){
+            HM3A();
+        } 
+        
+        timeCounter+= Time.deltaTime;
     }
     
     private void chooseAttack(){
@@ -251,6 +253,11 @@ public class AttackController : MonoBehaviour
             spawners[1].active = true;
             spawners[2].active = true;
             spawners[3].active = true;
+
+            spawners[0].spawnRate = 1;
+            spawners[1].spawnRate = 1;
+            spawners[2].spawnRate = 1;
+
             transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.168f, 0.34f, 0.34f, 1f);
             currentAttack = 7;
         }
@@ -269,6 +276,12 @@ public class AttackController : MonoBehaviour
             spawners[1].active = true;
             spawners[2].active = true;
             spawners[3].active = true;
+            spawners[4].active = true;
+            spawners[5].active = true;
+
+            spawners[0].spawnRate = 1;
+            spawners[2].spawnRate = 1;
+            
             transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.255f, 0.0f, 0.0f, 1f);
         }
     }
@@ -279,6 +292,30 @@ public class AttackController : MonoBehaviour
         foreach (Spawner spawner in spawners)
         {   
             spawner.active = false;
+            spawner.spawnRate = 10;
         }
+    }
+
+    public void reset(){
+            UpDown UpDownMovement = transform.parent.GetComponent<UpDown>();   
+
+            UpDownMovement.moveSpeed = 5;
+            UpDownMovement.maxY = 1.63f;
+            UpDownMovement.minY = -1.42f;
+            UpDownMovement.stopInterval = 0f;
+            UpDownMovement.stopInterval = 2f;
+            UpDownMovement.suavize = true;
+
+            guns.activeWeapons = 0;
+            guns.globalIsRotative = false;
+            guns.globalAutoShoot = true; 
+            guns.globalShootIntervalSeconds = 1.5f;
+            guns.globalShootDelaySeconds = 0f;
+            guns.fullRotation = true;
+
+
+            transform.parent.GetComponent<SpriteRenderer>().color = new Color(1f,1f, 1f, 1f);
+            currentAttack = -1;
+            disableSpawners();
     }
 }

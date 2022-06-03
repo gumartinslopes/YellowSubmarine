@@ -15,6 +15,7 @@ public class BossDmgNode : NodeIA
 
     public override NodeState Evaluate()
     {
-        return bossDmg >= this.threshold ? NodeState.FAILURE : NodeState.SUCCESS;
+        return bossDmg >= 0 ? NodeState.SUCCESS: NodeState.SUCCESS;
+        //return bossDmg >= this.threshold ? NodeState.FAILURE : NodeState.SUCCESS;
     }
 }

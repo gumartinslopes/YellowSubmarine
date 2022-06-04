@@ -6,4 +6,4 @@ Repositório atualizado do Trabalho Interdisciplinar 04 - Yellow Submarine
  - [x] Sprint 2 (Cenário)
  - [x] Sprint 3 (Definição do algoritmo de ia e melhorias no cenário)
  - [x] Sprint 4 (Entrega final)
- - [ ] Relaxar 💆‍♂️.
+ - [x] Relaxar 💆‍♂️.

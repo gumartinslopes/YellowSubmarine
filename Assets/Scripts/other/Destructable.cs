@@ -8,6 +8,9 @@ public class Destructable : MonoBehaviour
     public int hitDmg = 10;
     public int hp = 1;
     public bool invicible = false;
+    public bool respawnable = false;
+    public float initial_x = 0f;
+    public float initial_y = 0f;
 
     void Start()
     {
@@ -38,8 +41,12 @@ public class Destructable : MonoBehaviour
     }
 
     private void gameOver(){
-      if(hp <= 0)
+      if(hp <= 0 && !respawnable)
           Destroy(gameObject);
+      else
+          if(respawnable && hp <= 0) {
+            transform.position = new Vector2(initial_x, initial_y);
+          }
     }
 
     private void takeDmg(int dmg){

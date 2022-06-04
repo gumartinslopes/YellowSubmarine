@@ -116,6 +116,8 @@ public class AttackController : MonoBehaviour
 
             //transform.parent.GetComponent<SpriteRenderer>().color = new Color(0.244f, 0.186f, 0.229f, 1f);
             currentAttack = 0;
+
+            spawners[1].active = true;
         }
     }
 

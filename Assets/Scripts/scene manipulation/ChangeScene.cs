@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public string sceneName;
-    public bool toBossFight = false;
+    public string scenePerTime="BossFight";
     public Submarine? submarino = null;
-    public float time = 0f;
+    public float time = 60f;
+    private float timeAtual = 0f;
 
     public void Update() {
         if (submarino != null) {
@@ -17,13 +18,13 @@ public class ChangeScene : MonoBehaviour
             }
         } 
 
-        if(toBossFight) {
-            if(time > 10) {
-                SceneManager.LoadScene("BossFight");
+        if(time != 0) {
+            if(timeAtual > time) {
+                SceneManager.LoadScene(scenePerTime);
             }
         }
 
-        time+=Time.deltaTime;
+        timeAtual+=Time.deltaTime;
     }
 
     public void ChangeS() {

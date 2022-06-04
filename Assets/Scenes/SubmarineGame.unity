@@ -1068,7 +1068,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: GameOver
+  scenePerTime: BossFight
   submarino: {fileID: 165260076}
+  time: 60
 --- !u!1 &1291078035
 GameObject:
   m_ObjectHideFlags: 0

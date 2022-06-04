@@ -370,9 +370,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: GameOver
-  toBossFight: 0
+  scenePerTime: Win
   submarino: {fileID: 0}
-  time: 0
+  time: 60
 --- !u!4 &415486274
 Transform:
   m_ObjectHideFlags: 0
